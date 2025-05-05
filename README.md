@@ -41,8 +41,8 @@ We compared three tile coding configurations with 512 total features:
 
 Configuration	Avg Steps/Episode	Notes
 
-| 2 Tilings × 16×16	| Slower convergence	| Sparse generalization                |
-| 4 Tilings × 32×32	| Best performance	  | Dense features with better coverage  |
-| 8 Tilings × 8×8	  | Good performance	  | Balanced generalization and learning |
+|  2 Tilings × 16×16  |  Slower convergence  |  Sparse generalization                  |
+|  4 Tilings × 32×32  |  Best performance    |  Dense features with better coverage    |
+|  8 Tilings × 8×8    |  Good performance    |  Balanced generalization and learning   |
 
 The best performing setup was 32×32 tiles with 4 tilings using α = 0.5 / num_tilings.
